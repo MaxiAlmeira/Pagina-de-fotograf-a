@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+#menu nav ul li a[href="retratos.html"]{
+  text-decoration: none;
+}
+
+main {
+  background: #d5c75f;
+}
+
+.grupoimagenes {
+  width: 100%;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.grupoimagenes img {
+  max-width: 250px;
+  margin: 40px 15px;
+  height: auto;
+  max-height: 150px;
+}
+
+#img-blur{
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+}
+
+.img-gray {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+#img-sepia {
+  -webkit-filter: sepia(90%);
+  filter:sepia(90%);
+}

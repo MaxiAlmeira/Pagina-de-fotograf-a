@@ -5,6 +5,29 @@
   width: 100%;
 }
 
+body{
+  background: #02010a;
+}
+
+.contenido {
+  max-width: 900px;
+  margin: auto;
+  width: 85%;
+  animation: miAnimacion 0.5s;
+}
+
+@-webkit-keyframes miAnimacion{
+  0%{
+    transform: translateY(150%);
+  }
+  60%{
+    transform: translateY(-5%);
+  }
+  100%{
+    transform: translateY(0%);
+  }
+}
+
 header {
   background: #5b7989;
   font-family: 'Dancing Script', cursive;
@@ -34,7 +57,7 @@ header {
 }
 
 #titulo h1 {
-  font-size: 35px;
+  font-size: 30x;
   text-shadow:
   -2px -2px 0 #02010a,
   2px -2px 0 #02010a,
@@ -73,11 +96,11 @@ header {
   color: white;
 }
 
-#menu nav ul li a[href="html/inicio.html"] {
-  text-decoration: none;
-}
+@media screen and (max-device-width:900px) {
 
-@media screen and (max-width:800px) {
+  .contenido {
+    width: 100%;
+  }
 
   header {
     background: #5b7989;
@@ -96,7 +119,7 @@ header {
     display: -ms-flexbox;
     display: flex;
 
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
   }
@@ -133,14 +156,13 @@ header {
     color: white;
   }
 
-  #menu nav ul li a[href="html/inicio.html"] {
-    text-decoration: none;
-  }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-device-width:500px) {
 
-  
+  .contenido {
+    width: 100%;
+  }
 
   #cabecera {
     min-height: 50px;
@@ -183,9 +205,8 @@ header {
     text-decoration: underline;
     color: white;
   }
+}
 
-  #menu nav ul li a[href="html/inicio.html"] {
-    text-decoration: none;
-  }
-
+img {
+  box-shadow: 2px 2px 2px #02010a;
 }

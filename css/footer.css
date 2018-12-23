@@ -1,0 +1,31 @@
+footer {
+  font-family: 'Dancing Script', cursive;
+  color: black;
+  background: #C6d5c5;
+  border-radius: 0px 0px 10px 10px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+footer > div {
+  min-width: 190px;
+  width: 22%;
+  margin: 10px;
+  text-align: center;
+}
+
+a[href="mailto:maxi.almeira@gmail.com"]{
+  color: black;
+}
+
+.redessociales p{
+  margin: 2px;
+}
+.redessociales p a{
+  text-decoration: none;
+  color: black;
+}

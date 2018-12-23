@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+/*CSS PARA MODIFICAR EL ENCAVEZADO DE LA PAGINA INICIO*/
+#menu nav ul li a[href="index.html"] {
+  text-decoration: none;
+}
+
+/*COMENZAMOS CON EL CSS PARA EL CUERPO DE LA PAGINA*/
+
+main {
+  width: 100%;
+}
+
+#imagencentral{
+  background: #82c3a6;
+  width: 100%;
+  padding: 0px;
+}
+
+#imagencentral>div {
+  width: 70%;
+  max-width: 700px;
+  margin: auto;
+  padding: 30px 0px;
+
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+#imagensecundaria {
+  background: #d5c75f;
+  width: 100%;
+
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.imagensecundarias {
+  max-width: 300px;
+  padding: 0px;
+  margin: 15px;
+}
+
+.imagensecundarias img {
+  border: black 1px solid;
+}
+
+#imagen1 {
+  transition-property: transform, border, box-shadow;
+  transition-duration: 1s;
+}
+
+#imagen1:hover{
+  transform: rotate(10deg);
+  border: 2px black solid;
+  box-shadow: 2px 2px 2px #82c3a6;
+}
+
+#imagen2 {
+  transition-property: transform, border, box-shadow;
+  transition-duration: 1s;
+}
+
+#imagen2:hover{
+  transform: translate(20px, -5px);
+  box-shadow: 2px 2px 2px  #82c3a6;
+  border: 2px black solid;
+}
+
+#imagensecundaria h2 {
+  font-family: 'Dancing Script', cursive;
+  color: black;
+  text-decoration: underline;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}

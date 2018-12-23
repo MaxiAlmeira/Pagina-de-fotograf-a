@@ -2,16 +2,19 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="vierport" content="width=device-width, user-scalable=no">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
     <title>Comenzando con la Fotografía</title>
     <meta name="author" content="Maximiliano Almeira">
     <meta name="keywords" content="fotografía, paisajes, retratos">
     <meta name="description" content="Página web de fotografía para evaluación final de NextU">
     <link rel="stylesheet" href="css/cabecera.css">
     <link rel="stylesheet" href="css/cuerpoinicio.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/fontello.css">
   </head>
   <body>
-    <header>
+    <div class="contenido">
+      <header>
       <div id='cabecera'>
         <div id='titulo'>
           <h1>Comenzando con la Fotografía</h1>
@@ -19,7 +22,7 @@
         <div id='menu'>
           <nav>
             <ul>
-              <li> <a href="html/inicio.html">Inicio</a></li>
+              <li> <a href="index.html">Inicio</a></li>
               <li> <a href="html/paisajes.html">Paisajes</a></li>
               <li> <a href="html/retratos.html">Retratos</a></li>
             </ul>
@@ -27,8 +30,47 @@
         </div>
       </div>
     </header>
-    <main>
+      <main>
+      <div id="imagencentral">
+        <div>
+          <img src="imagenes/coneie.jpg" alt="1erCONEIE2018" title="11erCONEIE2018">
+        </div>
+      </div>
+      <div id="imagensecundaria">
+        <div class="imagensecundarias">
+          <img id="imagen1" src="imagenes/paisaje 1.png" alt="Paisaje1" title="Paisaje 1">
+          <h2>Paisajes</h2>
+        </div>
+        <div class="imagensecundarias">
+            <img id="imagen2" src="imagenes/retrato 1.png" alt="Paisaje2" title="Paisaje 2">
+          <h2>Retratos</h2>
+        </div>
+      </div>
+      </main>
 
-    </main>
+      <footer>
+        <div class="contacto">
+          <h2>Contacto</h2>
+          <p>Calle falsa 123</p>
+          <p>Teléfono: +549154123456</p>
+          <p><a href="mailto:maxi.almeira@gmail.com">maxi.almeira@gmail.com</a> </p>
+        </div>
+        <div class="terminos">
+          <h2>Términos</h2>
+          <p>Conoce nuestros términos y condiciones</p>
+        </div>
+        <div class="redessociales">
+          <h2>Redes Sociales</h2>
+          <p><a href="https://www.nextu.com/"> <span class="icon-facebook-squared"></span> Comenzando Fotografía</a></p>
+          <p><a href="https://www.nextu.com/"> <span class="icon-twitter"></span>  @ComenzandoFotografía</a></p>
+          <p><a href="https://www.nextu.com/"> <span class="icon-instagram"></span>  ComenzandoFotografía</a></p>
+        </div>
+        <div class="derechos">
+          <h2>Derechos</h2>
+          <p>Maximiliano Almeira</p>
+          <p><span class="icon-copyright"></span> Copyright 2018</p>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
