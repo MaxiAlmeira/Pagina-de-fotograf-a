@@ -40,3 +40,114 @@ main {
   -webkit-filter: sepia(90%);
   filter:sepia(90%);
 }
+
+@media screen and (max-device-width:900px) {
+
+  .contenido {
+    width: 100%;
+  }
+
+  header {
+    background: #5b7989;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    }
+
+  #cabecera {
+    width:100%;
+    min-height: 100px;
+    margin: auto;
+
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #titulo {
+    width: 100%;
+    min-width: 400px;
+    margin:auto;
+  }
+
+  #menu {
+      width: 100%;
+      min-width: 300px;
+      font-size: 25px;
+      margin: auto;
+  }
+
+  #menu nav ul{
+      height: 100%;
+      list-style: none;
+      text-align: center;
+      margin: auto;
+      padding: 0;
+      float: none;
+
+  }
+  #menu nav ul li {
+    margin: 0px;
+    padding: 0;
+  }
+
+  #menu nav ul li a {
+    text-decoration: underline;
+    color: white;
+  }
+
+}
+
+@media screen and (max-device-width:500px) {
+
+  .contenido {
+    width: 100%;
+  }
+
+  #cabecera {
+    min-height: 50px;
+  }
+
+  #titulo {
+    width: 100%;
+    min-width: 150px;
+    margin:auto;
+  }
+
+ #titulo h1 {
+   font-size: 25px;
+   margin: 15px auto;
+  }
+
+  #menu {
+      width: 100%;
+      min-width: 200px;
+      font-size: 20px;
+      margin: 10px auto;
+  }
+
+  #menu nav ul{
+      height: 100%;
+      list-style: none;
+      text-align: center;
+      margin: auto;
+      padding: 0;
+      float: none;
+
+  }
+
+  #menu nav ul li {
+    margin: 0px;
+    padding: 0;
+  }
+
+  #menu nav ul li a {
+    text-decoration: underline;
+    color: white;
+  }
+}

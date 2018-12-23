@@ -97,7 +97,6 @@ header {
 }
 
 @media screen and (max-device-width:900px) {
-
   .contenido {
     width: 100%;
   }
@@ -119,7 +118,7 @@ header {
     display: -ms-flexbox;
     display: flex;
 
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
@@ -133,8 +132,9 @@ header {
   #menu {
       width: 100%;
       min-width: 300px;
-      font-size: 25px;
-      margin: auto;
+      font-size: 20px;
+      margin: 15px auto;
+      padding: 0;
   }
 
   #menu nav ul{
